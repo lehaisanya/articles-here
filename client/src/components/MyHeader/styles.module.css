@@ -1,0 +1,10 @@
+@import 'vars.css';
+
+.userBlock {
+    padding: 0px 5px;
+    transition-duration: 0.2s;
+}
+
+.userBlock:hover {
+    background-color: var(--light-primary-color);
+}

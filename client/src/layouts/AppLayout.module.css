@@ -1,0 +1,25 @@
+@import 'vars.css';
+
+.header {
+    background: var(--default-primary-color) !important;
+    position: fixed;
+    z-index: 1;
+    width: calc(100% - 200px);
+}
+
+.layout {
+    margin-left: 200px;
+}
+
+.content {
+    margin-top: 64px;
+    max-width: 800px;
+    min-width: 300px;
+}
+
+.sider {
+    background: var(--default-primary-color) !important;
+    overflow: auto;
+    height: 100vh;
+    position: fixed !important;
+}
